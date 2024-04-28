@@ -9,6 +9,12 @@
     box-sizing: border-box;
 }
 
+.sr-only{
+    position:absolute;
+    overflow:hidden;
+    top:-50px;
+}
+
 #cards {
     display:flex;
     flex-direction:row;
@@ -17,12 +23,12 @@
     margin:150px auto;
 }
 
-#cards h1, p {
+#cards h2, p {
     margin-left:40px;
     color:white;
 }
 
-#cards h1 {
+#cards h2 {
     margin-top:50px;
     font-family: "Big Shoulders Display", sans-serif;
     text-transform: uppercase;
