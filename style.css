@@ -12,7 +12,7 @@
 .sr-only{
     position:absolute;
     overflow:hidden;
-    top:-50px;
+    top:-100px;
 }
 
 #cards {
