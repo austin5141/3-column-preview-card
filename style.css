@@ -94,6 +94,10 @@
     color:hsl(179, 100%, 13%)
 }
 
+.attribution {
+    color: white;
+}
+
 
 
 .button:hover {
